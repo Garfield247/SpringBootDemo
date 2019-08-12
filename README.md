@@ -1,6 +1,8 @@
 # SpringBoot Demo
 - [Spring Boot Hello World](./spring-boot-demo-helloworld)
-
+    *SpringBoot 的HelloWorld*
+- [Spring Boot Demo Properties](./spring-boot-demo-properties)
+    *获取配置文件的自定义配置*
 
 
 

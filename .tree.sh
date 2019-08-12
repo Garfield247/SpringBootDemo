@@ -10,7 +10,8 @@ for p in `find ./spring* -maxdepth 1 -type d`;
         then
         echo $p
         index=`cat ${p}/readme.md|sed -n '1p'`
-        echo "- [${index:2}](${p})\n" >>${filename}
+        info=`cat ${p}/readme.md|sed -n '2p'`
+        echo "- [${index:2}](${p})\n    ${info}" >>${filename}
         fi
     done
 

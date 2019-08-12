@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境 catman
+  website: dev环境 http://github.com/Garfield247
+  qq: dev环境 1234556
+  phone-number: dev环境 13432123
