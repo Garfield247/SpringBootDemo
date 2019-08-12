@@ -1,4 +1,6 @@
-package com.practise;
+package com.practise.hellowrld;
+
+
 
 
 import cn.hutool.core.util.StrUtil;
@@ -10,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringBootDemoHelloWorld {
+public class SpringBootDemoHelloWorldApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoHelloWorld.class,args);
+        SpringApplication.run(SpringBootDemoHelloWorldApplication.class,args);
 
     }
 
